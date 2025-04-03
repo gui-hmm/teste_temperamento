@@ -1,0 +1,352 @@
+{
+  "title": "Teste de Temperamentos",
+  "subtitle": "Vamos decobrir qual é o seu temperamento?",
+  "questions": [
+    {
+      "id": 1,
+      "question": "1º) Como você caminha?",
+      "options": [
+        { "id": 1, "name": "A - Caminha com firmeza e decisão, pisa forte, andar rápido e seguro, sempre em frente. Não se deixa desviar.", "alias": "C" },
+        { "id": 2, "name": "B - Caminha ligeiro e descuidado, bamboleando em ziguezague. Saltita, corre, pode ser facilmente desviado.", "alias": "S" },
+        { "id": 3, "name": "C - Caminha calmo, pensativo, comodista, às vezes tem passo arrastado e lento.", "alias": "M" },
+        { "id": 4, "name": "D - Caminha tranquilo, moderado, devagar, preguiçoso, não gosta de andar muito.", "alias": "F" }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "2º) Como é seu olhar?",
+      "options": [
+        { "id": 1, "name": "A - Bem dominado, sério, bondoso, às vezes triste, pesado, mas seguidamente ele não aparenta curiosidade. É o que menos percebe o que se passa ao redor dele, o que menos sente o que está acontecendo ao seu redor. Os olhos até meio fechados, voltados para dentro de si. Pode também adotar olhar perscrutador, ameaçador, carregado quando com problemas.", "alias": "M" },
+        { "id": 2, "name": "B - Penetrante, decidido, firme, para o alto ou para a frente, calculista, crítico, às vezes olha duro, intimidador e dá um certo medo.", "alias": "C" },
+        { "id": 3, "name": "C - Olhar vivo, amigável, se dirige para todos os lados, vê tudo em roda, é inconstante, curioso, outras vezes é cômico, maroto, malicioso e facilmente muda.", "alias": "S" },
+        { "id": 4, "name": "D - Olhar agradável, bondoso, tranquilo, gosta muito de fechar os olhos. Ele não é curioso, mas olha o que acontece à sua volta.", "alias": "F" }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "3º) Como você se veste?",
+      "options": [
+        { "id": 1, "name": "A - Ama a vaidade, quer vestes que destaque, que é diferente dos outros, até rebuscadas. Muitas vezes parece um pavão, membros descobertos, cores vivas, bastante enfeites. Prefere braços e pescoço livres. Quando à vontade pode ser até relaxado e bem desorganizado.", "alias": "S" },
+        { "id": 2, "name": "B - Usa moda moderada, mantém suas roupas mais ou menos em ordem. É muito normal usar uma das peças desabotoada ou blusa (camisa) com parte para fora da saia (calça).", "alias": "F" },
+        { "id": 3, "name": "C - Tem medo de chamar a atenção. Roupas discretas, cores escuras, as mais comuns, com isso parece muitas vezes ultrapassado. Mantém sempre a roupa limpa, abotoada até em cima, daí a impressão de ordem e limpeza. É muito sóbrio.", "alias": "M" },
+        { "id": 4, "name": "D - Roupas boas, funcionais, servem para aquilo que precisa. Gosta sempre de roupas representativas da classe cultural a qual pertence. Usa roupa prática, não quer ser muito fino, nem muito ostensiva. Nada de cores berrantes, nada que chame a atenção.", "alias": "C" }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "4º) Como se senta?",
+      "options": [
+        { "id": 1, "name": "A - Difícil usar o encosto, é mais firme, mais estável, não sabe onde pôr as mãos.", "alias": "M" },
+        { "id": 2, "name": "B - Atitude correta, usa o encosto da cadeira, sabe usar bem as mãos.", "alias": "C" },
+        { "id": 3, "name": "C - Adota posição extravagante, à vontade, não fica na mesma posição sempre.", "alias": "S" },
+        { "id": 4, "name": "D - Procura a posição mais cômoda, à vontade.", "alias": "F" }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "5º) Como saúda as pessoas?",
+      "options": [
+        { "id": 1, "name": "A - Se dirige ao outro firme, às vezes seco. Saúda só onde é conveniente, quando saúda, fala claro, palavras pensadas, nenhum enfeite de conversa, não é insistente, usa poucas palavras com clareza inconfundível.", "alias": "C" },
+        { "id": 2, "name": "B - Gostaria de saudar a todos, mas nem sempre consegue, por estar voltado para dentro de si. No aperto de mão põe toda a sua convicção e profundidade interior. Quer dizer muito com isso, é o temperamento das ocasiões perdidas. Sente sempre depois. Também não saúda a todos por acanhamento, quando saúda é muito cordial. Poucas palavras, pouca conversa, poucas perguntas.", "alias": "M" },
+        { "id": 3, "name": "C - Saúda depois que passou pela pessoa. Se o outro saúda, você responde, espera que o outro saúde primeiro. Quando saúda é muito cortês, não é de muita conversa e não se restringe ao mínimo necessário.", "alias": "F" },
+        { "id": 4, "name": "D - Saúda de acordo com o estado afetivo do momento.", "alias": "S" }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "6º) Aperto de mão",
+      "options": [
+        { "id": 1, "name": "A - Firme, com força, pega toda a mão.", "alias": "C" },
+        { "id": 2, "name": "B - Normal, nem afetuoso, nem retraído, é cortês mas se esquece de dar a mão.", "alias": "F" },
+        { "id": 3, "name": "C - Põe todo o seu mundo interior, com calma, compenetrado, quer manifestar todo o seu sentimento, é mais solene ao saudar. Só pega na pontinha da mão.", "alias": "M" },
+        { "id": 4, "name": "D - Gesticula com as mãos, dá palmadinhas no outro, repete os gestos, os toques. Não se contenta em só dar as mãos, abraça também.", "alias": "S" }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "7º) Como é seu modo de falar?",
+      "options": [
+        { "id": 1, "name": "A - Fala pouco, está sempre ocupado com seu mundo, tem pouco contato com o mundo exterior. Pensa e não se atreve a transmitir, porém o faz de muita reflexão, então suas palavras são profundas e prudentes. Fala baixinho e penetrante. Elabora silencioso suas vivências e impressões, acumula grande sabedoria de vida a qual sabe transmitir cuidadosamente às pessoas visadas. Quando está desiludido ou abatido, torna-se crítico amargo e cortante que facilmente esquece os lados positivos. Seu pior problema é achar assunto para a conversa, gosta de ouvir, mas não consegue falar muito.", "alias": "M" },
+        { "id": 2, "name": "B - Fala antes de pensar, enfeita, exagera, só depois que falar é que vai pensar. Fala ligeiro, bastante, poesia, enfeita sua conversa, usa frases bombásticas, exagera facilmente o que conta, as vezes corta, encurta, modifica. Quase fala mais com gestos do que com palavras, quer estar sempre no centro, ser o dono da conversa. Não fala pouco mas é adulador para conseguir o que quer.", "alias": "S" },
+        { "id": 3, "name": "C - Objetivo, sóbrio, nos assuntos concretos não faz poesia. Pensa antes de falar, sua expressão é clara, decidida, às vezes dura. Não fala inutilmente, sua voz é forte, franca, dominadora. Não é de muitas palavras, não adula ninguém.", "alias": "C" },
+        { "id": 4, "name": "D - Não fala exageradamente e nem pouco. Suas palavras são bem pensadas, o que diz tem fundamento. Fala seguro e o que diz é para dizer mesmo, sem se atrapalhar. O juízo que emite não é precipitado nem superficial. É equilibrado e não se deixa influenciar por sentimento e vê as coisas sem preconceito.", "alias": "F" }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "8º) Como é seu modo de sorrir?",
+      "options": [
+        { "id": 1, "name": "A - Ri quando há motivo razoável. Não ri por qualquer coisa. Riso aberto, forte, espontâneo, mas não muito prolongado, bem dosado.", "alias": "C" },
+        { "id": 2, "name": "B - Ri por qualquer coisa, acha graça em tudo. Faz todas as oitavas das notas musicais. Graceja e não para de rir.", "alias": "S" },
+        { "id": 3, "name": "C - Ri quando tem motivo razoável, é sério, Seu riso é alto, é mais retraído, com certa inibição. Não chama a atenção, tem menor capacidade de externar o que vai dentro de si.", "alias": "M" },
+        { "id": 4, "name": "D - Ri de boa vontade, gostosamente, oportunamente mas sem excesso. É comum que comece a rir depois dos outros. Nos grupos, na sociedade é o ponto de equilíbrio, nem muito e nem pouco.", "alias": "F" }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "9º) Ao receber uma notícia alegre",
+      "options": [
+        { "id": 1, "name": "A - Reage lentamente a notícia alegre, você a vive, mas não de medo perceptível espalhando a todos, guarda.", "alias": "F" },
+        { "id": 2, "name": "B - Respira aliviado, mas desconfia e pensa se pode ser verdade ou não. Quando se certifica que é verdade então fica alegre, sua alegria é muito dosada, comedida, é mais ao interior, e a alegria interna dura mais.", "alias": "M" },
+        { "id": 3, "name": "C - Rompe aos gritos sem saber se é ou não verdade, esquece tudo o que está fazendo e só fala naquilo. Se deixa levar, exagera, não tem controle.", "alias": "S" },
+        { "id": 4, "name": "D - Primeiro pensa friamente, objetivamente, não acredita logo. Quando vê a realidade, sua reação é moderada, de acordo com o fato, sua alegria é realista, é dosada. Não é excessiva e não fica ecoando nele muito tempo, ele troca para a frente. Por exemplo: o Pe. J.K., quando recebeu a notícia da aprovação da fundação ficou alegre, mas foi continuar seu trabalho. Você tem domínio sobre o sentimento.", "alias": "C" }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "10º) No grupo",
+      "options": [
+        { "id": 1, "name": "A - Em geral tem menos colegas porque é muito acomodado. Sempre é empurrado pelos outros, fica de lado. Falta-lhe iniciativa, arrojo, pode tornar-se enfadonho devido à calma. Tende para o comodismo.", "alias": "F" },
+        { "id": 2, "name": "B - Está sempre atrás, não aparece, é despercebido, mas é uma força muito grande. O que lhe falta é ânimo e liderança, tem grande necessidade de achar um grande amigo, isso é para você um ponto de apoio. Quer ter um amigo, mas que seja bom e de confiança. Em si é muito fiel, merecedor de confiança, o que promete cumpre. Possui grande força de sacrifício, é de doação para os outros. Não acompanha facilmente o grupo, só o que acha conveniente. É um espírito reto, nada de fingimento, também deseja ser admirado, reconhecido, por isso pode sofrer com alguém que pode lhe ser a pedra de tropeço. Gostaria que os outros percebessem o que faz.", "alias": "M" },
+        { "id": 3, "name": "C - Não quer a frente, mas o meio entre os colegas. Faz um mundo de indiretas, conta piadas, faz gracejos, exagera, adula os outros, procura fazer de tudo para chamar a atenção sobre si. No trato com os colegas é amigável, sabe entender a todos. Acompanha todos, faz mil gracejos, tem sempre coisas novas, sugestões. O que lhe falta é fidelidade aos colegas, promete muito e cumpre pouco. Está sempre rodeado no recreio, onde as coisas sérias não aparecem.", "alias": "S" },
+        { "id": 4, "name": "D - Quer estar sempre na frente, tem metas firmes, claras, não costuma repetir nem retirar o que diz. Sempre tem razão e quer ter a última palavra. Não aceita sugestões. No grupo é o que aguenta as pontas. Por exemplo: o grupo todo pode estar errado numa ideia e você mantém a sua que é correta. Quer liderar tudo, é líder nato. Quando não se educa a ter consideração pelos colegas, fica muito duro, ditador, tirano, onde vai querer arrastar todo mundo e não enxerga mais nada. Se não for educado se torna tirano. Perde a consideração pelos colegas para conseguir a meta, por esse motivo pode ter poucos amigos, se não cultivar a consideração e a generosidade.", "alias": "C" }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "11º) Na escrita",
+      "options": [
+        { "id": 1, "name": "A - Escreve as cartas de acordo com a disposição do momento, e por motivos práticos. Interrompe as frases quando vem ideias novas. Larga no meio se precisa sair, esquecer coisas importantes e colocar coisas insignificantes. Quase sempre falta espaço para completar e ultrapassar as margens. É muito comum depois da assinatura colocar alguma coisa que esqueceu. Pode ser que fique a carta no bolso alguns dias antes de pôr no correio. Letra irregular, inconstante, às vezes grossa, às vezes miudinha. Esquece das sílabas quando emocionado e neste caso também sai da linha. A letra é cheia de rabisquinhos, enfeitada, e fere palavreado brilhante.", "alias": "S" },
+        { "id": 2, "name": "B - Escreve uma carta quando tem motivo sério, real, não escreve uma palavra inútil, tudo é bem pensado. As cartas são frias, mais informativas, sobre assuntos negativos, mas funcionais. Para você, a carta não é um meio de manifestar sentimentos, ela é fria. Trata de assuntos concretos, dá a notícia sóbria, do que se trata, usa frases bem claras, acaba a carta rapidamente e a põe no correio. A letra é mais grossa, mais recortada, calculada, não tem rabisquinhos, nada superficial.", "alias": "C" },
+        { "id": 3, "name": "C - Escreve pouco, lentamente, exprime-se de modo sem impressão, calmo, e seu juízo é sempre compreensível. Suas cartas não são muito compridas, deixa fora o que é desnecessário. A letra é calma, sólida, bem formada. Manifesta a tranquilidade interior. Pode ser que sua carta não chegue ao destino por deixá-la na gaveta.", "alias": "F" },
+        { "id": 4, "name": "D - Escreve só coisas importantes, pensa muito antes de escrever. Prevê a reação de quem vai receber a carta. É caprichoso, preocupa-se em que seja bem escrita, que o assunto seja certo. É comum ler a carta para se certificar se está boa. A caligrafia é bem caprichada, ordenada, prefere escrever com letras médias e pequenas. Se estiver em estado de emoção, a caligrafia pode piorar. A sua grande dificuldade é achar assunto.", "alias": "M" }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "12º) À mesa",
+      "options": [
+        { "id": 1, "name": "A - Tendência a se atrasar, nunca apresenta pressa em acabar a refeição. Come com calma, às vezes tem-se a impressão que comer e dormir são as coisas mais importantes.", "alias": "F" },
+        { "id": 2, "name": "B - Chega em hora imprevista, não se atem as boas maneiras, brinca com o prato, talheres e só come o que lhe agrada. Incomoda seus companheiros, fala, agita-se, sua refeição se prolonga por causa da conversa, mas gosta de falar das comidas. Só sai rapidamente se for para recreação.", "alias": "S" },
+        { "id": 3, "name": "C - Chega pontualmente e começa a refeição. Se for necessário come tudo sem deixar nada para os outros. Depois da refeição não permanece na mesa.", "alias": "C" },
+        { "id": 4, "name": "D - Pontualmente e quanto às maneiras, observa as maneiras sociais e se adapta às boas maneiras, é mais solene. Come de tudo, também do que não gosta. Enquanto come gosta de pensar, quando acaba se retira calmamente e segue seu trabalho.", "alias": "M" }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "13º) Na sala de espera",
+      "options": [
+        { "id": 1, "name": "A - Apresenta feição paciente, mas um tanto preocupada. Prefere manter-se em silêncio, não gosta de conversar com ninguém, fica quieto, tranquilo mas com fisionomia pesada. Sabe aproveitar o tempo lendo e suporta com paciência o atraso. Tem grande capacidade para sofrer e suportar.", "alias": "M" },
+        { "id": 2, "name": "B - Apresenta feição séria, decidida, seca. Procura não deixar transparecer sua preocupação e dominar a situação. Procura ocupar seu tempo com coisas práticas, como por exemplo, palavras cruzadas. É valente no sofrimento.", "alias": "C" },
+        { "id": 3, "name": "C - Não se excita muito e aguenta a dor com tranquilidade. Quase não se preocupa, a sua natureza é favorável, fica tranquilo quando precisa ser tranquilo.. São os que os médicos mais encontram tranquilos na hora da consulta. Procura posição cômoda e pode ser até que tire um cochilo.", "alias": "F" },
+        { "id": 4, "name": "D - Entra em grande tensão, começa logo a tagarelar, começa a sentir calor, abre a janela para respirar, acha muito quente, olha seguido para o relógio, queixa-se de estar atrasado, começa a andar pela sala, transpira com facilidade e queixa-se muito. Não pode ficar parado.", "alias": "S" }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "14º) No lugar de aglomeração",
+      "options": [
+        { "id": 1, "name": "A - Vai sempre abrindo caminho para a porta. Altivo mais com boas maneiras. Só fala quando necessário, exige educação dos outros.", "alias": "C" },
+        { "id": 2, "name": "B - Procura entender os outros, faz amizade com todos.", "alias": "S" },
+        { "id": 3, "name": "C - Fica pensando em descansar durante a viagem. Pode ser uma agradável companhia de viagem. A comodidade é essencial.", "alias": "F" },
+        { "id": 4, "name": "D - Prefere ficar despercebido, não fala com pessoas estranhas. Procura um canto e tem até receio de ouvir a sua voz estando os outros em silêncio. É cortês e atencioso.", "alias": "M" }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "15º) No repousar",
+      "options": [
+        { "id": 1, "name": "A - Não tem hora para dormir, depende da disposição. Tem sempre alguma coisa para se entreter, quando vai dormir joga tudo de qualquer jeito e nem pensa quando vai levantar.", "alias": "S" },
+        { "id": 2, "name": "B - A hora de deitar é a mais esperada do dia. Se está muito cansado, deita até sem se lavar.", "alias": "F" },
+        { "id": 3, "name": "C - Vai dormir concentrado, recolhido, observa o horário, programa o horário de levantar, é muito metódico.", "alias": "M" },
+        { "id": 4, "name": "D - Calcula bem a hora de dormir e levantar no horário certo. Deita-se e não quer ser incomodado, tem sono tranquilo e vai dormir mais tarde que os outros. Arruma sempre a roupa no lugar.", "alias": "C" }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "16º) Ida ao trabalho?",
+      "options": [
+        { "id": 1, "name": "A - Chega pontualmente e começa o trabalho.", "alias": "C" },
+        { "id": 2, "name": "B - Facilmente se atrasa, não é preciso na hora.", "alias": "S" },
+        { "id": 3, "name": "C - Pontual, consciencioso e começa o trabalho.", "alias": "M" },
+        { "id": 4, "name": "D - Também pode se atrasar, mas se isso acontece tem toda calma como se nada tivesse acontecido.", "alias": "F" }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "17º) Durante o trabalho",
+      "options": [
+        { "id": 1, "name": "A - Trabalha de modo inconstante, canta, assobia, sai para tomar água, o rendimento tende a ser menor.", "alias": "S" },
+        { "id": 2, "name": "B - É silencioso, de confiança, trabalhador e chega a ser quase escrupuloso. Faz caprichado. Fica nervoso com a tagarelice e os berros dos outros. Quer um ambiente calmo e tranquilo. Tudo que é excesso não é com você.", "alias": "M" },
+        { "id": 3, "name": "C - Sempre com visão geral, têm conhecimento da situação, pensa para começar e começa decidido. Quando vê os outros se espreguiçando já começa a repreender, força o ambiente para produzir. No trabalho é realmente trabalhador.", "alias": "C" },
+        { "id": 4, "name": "D - Tem ritmo lento mas constante. É fiel no seu serviço, se deixa de trabalhar fica preguiçoso.", "alias": "F" }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "18º) Ao receber uma ofensa",
+      "options": [
+        { "id": 1, "name": "A - Na hora da ofensa tem reação fraca e lenta, impressiona pouco. Não demora a se acalmar e esquece com facilidade.", "alias": "F" },
+        { "id": 2, "name": "B - Fica indignado, triste, amargurado, começa a causar reação dentro de si, começa lento, vai avolumando. As desilusões, ofensas, injustiças o levam rapidamente a um profundo pessimismo. Se fecha em si mesmo, isola-se e pode levá-lo a sentir aversão a pessoa que o ofendeu. Como quase não fala, dá a impressão aos outros que não se ofendeu. Se explode é violento.", "alias": "M" },
+        { "id": 3, "name": "C - Explode sem pensar o que vai fazer, começa a xingar, ameaçar. Tem reação forte, mas curta, dura pouco tempo. Não guarda rancor, no outro dia já está tudo bem. Não suporta brigas.", "alias": "S" },
+        { "id": 4, "name": "D - Pensa como vai reagir, em seguida reage firme, duro. É de reação forte, pode chegar ao duelo, à vingança, ao sangue. Depois da vingança ainda lembra. Se vinga até fisicamente.", "alias": "C" }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "19º) Ao chamar a atenção dos outros",
+      "options": [
+        { "id": 1, "name": "A - Por natureza é crítico com a atitude dos outros, exige bastante de si e dos outros. A medida que aplica aos outros aplica a si mesmo. É difícil quando tem que chamar a atenção, pois tem medo da reação do outro. Às vezes resolve-se desculpando-se antes de chamar a atenção, é uma maneira de afastar a reação dos outros. Chama a atenção com poucas palavras, é impreciso, esquece particulares, mistura. Quando ouve certa coisa não pergunta, diz que entendeu e quando vai fazer não sabe.", "alias": "M" },
+        { "id": 2, "name": "B - Primeiro pensa qual a melhor maneira e aguarda a primeira oportunidade, quando chama a atenção fala claro, sério para que todos entendam. Diz tudo o que tem para dizer, é sóbrio nas palavras, mas sem misericórdia. Se a pessoa retruca ou resiste pode se tornar mais severo ou violento.", "alias": "C" },
+        { "id": 3, "name": "C - Espera o mais que pode, perde as ocasiões de chamar a atenção, dá a impressão que ele quer que o outro se dê conta do erro. Se chama a atenção, fala claro e de modo bondoso.", "alias": "F" },
+        { "id": 4, "name": "D - Começa a desviar a advertência, daí chama a atenção de repente, de modo improvisado. É mais comum enfeitar, tem medo de ofender. Se quando repreendendo os outros apresentam reação, retira a repreensão. Não quer perder a amizade de ninguém.", "alias": "S" }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "20º) Como reza",
+      "options": [
+        { "id": 1, "name": "A - Tem muita distração, oração desorganizada, não tem um plano para rezar. Diante de Deus é um inocente.", "alias": "S" },
+        { "id": 2, "name": "B - Apresenta todos os seus problemas. Reza com muita paciência e perseverança. Não tem pressa de sair logo. Preferivelmente cultiva a oração contemplativa.", "alias": "F" },
+        { "id": 3, "name": "C - Tem grande anseio de falar com Deus. Sente certa saudade de Deus, perante Deus é pecador, indigno como um filho pródigo. Prevalece a oração de súplica e se recorda dos outros.", "alias": "M" },
+        { "id": 4, "name": "D - Seguro de si, calculista e também um pouco orgulhoso. Sua oração é uma lógica seca, de idéias calculadas, interesseiras. Se apresenta à frente de Deus com ânimo e pede sem respeito.", "alias": "C" }
+      ]
+    },
+    {
+      "id": 21,
+      "question": "21º) Na escolha de filme",
+      "options": [
+        { "id": 1, "name": "A - Gosta de filmes voltados para a vida prática, para a profissão, política, formação, cultura, arte, ciências, expedições, sempre práticos, técnicos, de guerra. Não aprecia filmes só de passatempo.", "alias": "C" },
+        { "id": 2, "name": "B - Gosta de filmes religiosos, sociais e morais. Busca o lado trágico da vida, quer problemas e idéias humanamente profundos, filmes com pessoas heróicas, sofridas e também com valores educacionais, filmes voltados para a problemática da época.", "alias": "M" },
+        { "id": 3, "name": "C - Gosta de filmes de sensação e entretenimento, crime, faroeste, amor, aventura, comédia, suspense e excitações. Não gosta de filmes sérios.", "alias": "S" },
+        { "id": 4, "name": "D - Gosta de filmes calmos de entretenimento e formação serena. Não gosta de filmes de sensações e loucura. Condena os filmes de excitação. Quer sentir-se espiritualmente tranquilo e sossegado. Assiste filmes mais cruéis e horripilantes sem perder a calma.", "alias": "F" }
+      ]
+    },
+    {
+      "id": 22,
+      "question": "22º) Procurar namorado(a)",
+      "options": [
+        { "id": 1, "name": "A - Demora muito para fazer a escolha. Procura alguém calmo, espontâneo, mas que tenha alguma iniciativa e autonomia. Muitas vezes chega atrasado porque demora demais e outra pessoa chega na sua frente.", "alias": "F" },
+        { "id": 2, "name": "B - Quer um companheiro (a) compreensivo que saiba entreter-se e alegrar-se. Perante uma pessoa que planeja e trabalha com muita energia, sente receio porque estará se sentindo inferior ao outro. Deixa-se levar por qualquer sorriso ou piscadinha de olho. Se enamora tão depressa que só depois começa a pensar no namoro e põe em ordem o seu intelecto. É inconstante, não se deve levar a sério suas declarações de amor.", "alias": "S" },
+        { "id": 3, "name": "C - Leva em conta de modo frio e lógico a situação financeira, profissional, econômica da (do) moça (rapaz). Quer uma pessoa que ajude a ter êxito na vida, deve ser uma pessoa que se apresente de modo que goste. Outras qualidades humanas podem ficar em segundo plano. Só interessam se trazem vantagens.", "alias": "C" },
+        { "id": 4, "name": "D - Procura pessoa de bom caráter, caprichosa no trabalho. Deve ter grandezas de alma e afetividade profunda, sem isso seria muito superficial. É desconfiado e crítico na escolha. Procura escolher de acordo com sentimentos religiosos e morais. Há muito critério na escolha.", "alias": "M" }
+      ]
+    },
+    {
+      "id": 23,
+      "question": "23º) Quando pecam e se confessam",
+      "options": [
+        { "id": 1, "name": "A - Fica abalado, confuso, às vezes desanimado. Julga-se incapaz de fazer qualquer coisa boa. Sofre longamente, mesmo depois da confissão. Na confissão sente medo, examina-se conscienciosamente, aproxima-se com recolhimento, abatido pelos seus erros. Acusa-se com profunda sinceridade e fica grato pelas palavras consoladoras que recebe, sente- se aliviado após e procura cumprir longamente a penitência imposta.", "alias": "M" },
+        { "id": 2, "name": "B - Pensa friamente sobre a situação. Calcula o que deve fazer e depois age. Quer deixar logo a coisa em ordem com Deus. Se prepara bem, caminha firme para o confessionário, confessa calmo e decidido. Seus pecados vão mais na linha dos pecados concretos.", "alias": "C" },
+        { "id": 3, "name": "C - Custa a cair em pecados graves porque tem paixões fracas. Sente-se atrapalhado com suas culpas, está acostumado a receber repulsa e a suportá-las com paciência. Se prepara calma e longamente. É sincero.", "alias": "F" },
+        { "id": 4, "name": "D - Esquece ou passa por cima dos pecados que cometeu sem levá-los a sério. Procura distorcer a realidade e não reflete muito. Outras vezes fica abatido, pede logo perdão e esquece tudo. Para a confissão fica preocupado e excitado. Não consegue ordenar as idéias. Vai confessar apressado, rápido, fala nervoso, atrapalhado, embaralhado. Gosta de contar os pecados dos outros. Seus pecados vão na linha do sentimento, do afeto.", "alias": "S" }
+      ]
+    },
+    {
+      "id": 24,
+      "question": "24º) Com acontecimentos tristes",
+      "options": [
+        { "id": 1, "name": "A - Fica totalmente fora de si, sua dor é exagerada, sem medida, exclusiva. É arrastado pela reação do sentimento do momento e outros devem pensar e agir por ele nesses momentos difíceis.", "alias": "S" },
+        { "id": 2, "name": "B - Demora certo tempo para dar-se conta, depois fica pálido e imóvel. A reação só vem mais tarde, mais profunda, contudo vence o abatimento devido a sua calma habitual.", "alias": "F" },
+        { "id": 3, "name": "C - Fica fora de si, se concentra, reage dolorosamente, com seriedade. Procura ocultar sua reação, mas quando está só irrompe numa dor mais profunda. Tem mais capacidade de suportar o sofrimento, é o que se queixa menos.", "alias": "M" },
+        { "id": 4, "name": "D - Não perde a cabeça, pensa antes e só depois age. Começa a agir quando vê claro o que tem a fazer. Sente uma dor moderada e não a deixa transparecer muito.", "alias": "C" }
+      ]
+    },
+    {
+      "id": 25,
+      "question": "25º) O que cada um pensa de si",
+      "options": [
+        { "id": 1, "name": "A - Sofre muito com as injustiças que recebe dos outros que o desprezam. Inveja o temperamento deles e pode sentir rejeição do seu.", "alias": "F" },
+        { "id": 2, "name": "B - Se acredita mais capacitado que os outros, mas tem inveja de algumas pessoas por sua força de vontade. Julga-se o mais inocente do mundo, não se dá com quem é muito sério ou acomodado.", "alias": "S" },
+        { "id": 3, "name": "C - Julga-se superior a todos os outros. Exagera sua inteligência, sua capacidade de realização. Julga-se senhor do ambiente social. Para você os outros não valem nada.", "alias": "C" },
+        { "id": 4, "name": "D - Possui certo orgulho, discreto, contudo julga-se de forma negativa por isso é seguidamente abatido. Julga-se pecador e é muito crítico com os outros.", "alias": "M" }
+      ]
+    },
+    {
+      "id": 26,
+      "question": "26º) Como gasta seu dinheiro",
+      "options": [
+        { "id": 1, "name": "A - É econômico nato, gasta pouco, só o que é necessário. É criterioso ao fazer despesas, não cai nas propagandas e ofertas de preços especiais. Vê o tipo de artigo, escolhe o mais barato, é sensível ao outro, por isso gosta de dar dinheiro para fins caritativos e sociais.", "alias": "M" },
+        { "id": 2, "name": "B - Não dá um centavo para coisas supérfluas, tudo deve ser útil e ter uma finalidade prática. Gasta só naquilo que ajuda a melhorar a vida, que traz progresso. É sóbrio nas despesas, só será esbanjador se cair no vício.", "alias": "C" },
+        { "id": 3, "name": "C - É econômico nato, não gasta seu dinheiro precipitadamente, sem calcular, mas é ingênuo e facilmente torna-se vítima de vigaristas.", "alias": "F" },
+        { "id": 4, "name": "D - É incapaz de programar seus gastos, gasta conforme lhe dá vontade, deixa-se iludir facilmente por propagandas sensacionalistas. É vítima de vigaristas e é capaz de gastar tudo em aventuras sem sentir e acabar tendo prejuízo. Falta-lhe a visão geral, o planejamento dos gastos a fazer. Pode fazer a família passar fome, paga comida aos colegas, é generoso. Joga por dinheiro e é logrado. Deixa-se levar por sentimentos, quer aparecer e o dinheiro não dá até o fim do mês e se admira de ter feito bancarrota.", "alias": "S" }
+      ]
+    },
+    {
+      "id": 27,
+      "question": "27º) No lazer",
+      "options": [
+        { "id": 1, "name": "A - Sempre no meio dos colegas em busca de distração e divertimentos, apostas loucas e também sensações. Sempre procura coisas novas. Ama a variedade de divertimentos, loucuras e extravagâncias. Prolonga o tempo livre o mais que puder. Precisa ser impelido a voltar ao trabalho.", "alias": "S" },
+        { "id": 2, "name": "B - Ama o tempo livre e emprega-o para entreter-se bem à vontade. Outras vezes emprega-o para descansar, dormir um pouco. Custa voltar ao trabalho.", "alias": "F" },
+        { "id": 3, "name": "C - Gosta de aproveitar o tempo livre para recolher-se, interiorizar-se. Ama o silêncio, a beleza da natureza, a arte e o mundo espiritual. Fuga do barulho, evita os divertimentos sensacionais, medita, faz leituras, não se deixa levar por uma alegria exagerada. Acaba pontualmente seu tempo livre e volta ao trabalho.", "alias": "M" },
+        { "id": 4, "name": "D - Aproveita para trabalhar, não gosta de ficar sem saber o que fazer. Só se ocupa de coisas úteis, proveitosas. Utiliza o tempo livre para planejar coisas práticas, não fica parado.", "alias": "C" }
+      ]
+    },
+    {
+      "id": 28,
+      "question": "28º) Dificuldade perante um obstáculo",
+      "options": [
+        { "id": 1, "name": "A - Fica raivoso, raciocina rapidamente estudando possibilidades e age para remover o obstáculo. EX: Diante de uma pedra remove-a com o pé mesmo.", "alias": "C" },
+        { "id": 2, "name": "B - Fica sério, triste, preocupado. As dificuldades o deixam aflito e inseguro. Demora para remover um obstáculo, pois é pessimista quanto às suas possibilidades em solucionar dificuldades. É desanimado, é o que mais se desanima. EX: Diante de uma pedra pensa na maldade e critica quem a colocou na passagem, depois remove-a friamente.", "alias": "M" },
+        { "id": 3, "name": "C - Fica tomado das idéias mais extravagantes, gesticula, não leva a sério, faz coisas absurdas, esquiva-se. EX: Diante de uma pedra salta por cima e afasta-se falando sozinho.", "alias": "S" },
+        { "id": 4, "name": "D - Não se preocupa, aproveita para descansar um pouco, mede suas possibilidades com tranquilidade e começa aos poucos remover o obstáculo, depois segue. Diante de uma dificuldade é o que coloca mais equilíbrio no grupo.", "alias": "F" }
+      ]
+    },
+    {
+      "id": 29,
+      "question": "29º) Qualidades quanto à natureza",
+      "options": [
+        { "id": 1, "name": "A - Bondoso, calmo, tranquilo e bonachão, quieto, despreocupado, satisfeito, não gosta de impor-se, é constante, fiel, coerente, afável, gentil, facilmente procura o descanso, a inércia, por isso no trabalho tem pouca iniciativa.", "alias": "F" },
+        { "id": 2, "name": "B - Alegre, vivaz, superficial e inconstante, brincalhão, divertido, cordial, compreensivo, generoso, interessa-se por coisas exteriores. É carente de paixões profundas e facilmente se torna agitado.", "alias": "S" },
+        { "id": 3, "name": "C - Enérgico e combativo, voltado aos ideais, lutador, seco e duro, inflexível, ruidoso, briguento, pouco generoso, não perdoa, frio e calculista, sempre voltado para a sua própria vantagem. Aspira a grandeza, poder, liderança, o máximo. Facilmente se torna arrojado e exigente. E também muito imprudente.", "alias": "C" },
+        { "id": 4, "name": "D - Inclinação a reflexão, solidão, quietude, tristeza, sério, profundo, retraído, remoedor, tímido, melindroso e disponível. Aspira anonimamente o heroísmo de caráter e vida. Quer ser herói, sendo indeciso e facilmente levado ao pessimismo.", "alias": "M" }
+      ]
+    },
+    {
+      "id": 30,
+      "question": "30º) Boas qualidades",
+      "options": [
+        { "id": 1, "name": "A - Inclinação a vida interior profunda, religiosidade, compaixão, serviçal e fiel.", "alias": "M" },
+        { "id": 2, "name": "B - Atividade prática, vontade forte, personalidade marcante, liberalidade, inteligência clara, concentração e magnanimidade.", "alias": "C" },
+        { "id": 3, "name": "C - Perseverança, paciente, discrição, carência de paixões profundas.", "alias": "F" },
+        { "id": 4, "name": "D - Afabilidade, fácil trato, sinceridade, alegria, docilidade e generosidade.", "alias": "S" }
+      ]
+    },
+    {
+      "id": 31,
+      "question": "31º) Más qualidades",
+      "options": [
+        { "id": 1, "name": "A - Complacência em si mesmo, galanteador, invejoso, parcial, tem medo do sacrifício, é superficial.", "alias": "S" },
+        { "id": 2, "name": "B - Falta de energia e iniciativa, comodidade.", "alias": "F" },
+        { "id": 3, "name": "C - Passividade, desânimo, desconfiado, receoso, irresoluto, medo de humilhação.", "alias": "M" },
+        { "id": 4, "name": "D - Orgulhoso, arrogância, ira, insensibilidade, dureza, obstinação, teimosia.", "alias": "C" }
+      ]
+    },
+    {
+      "id": 32,
+      "question": "32º) Excitabilidades (Capacidade de interessar-se por alguém ou alguma coisa)",
+      "options": [
+        { "id": 1, "name": "A - Difícil e forte, grande capacidade.", "alias": "C" },
+        { "id": 2, "name": "B - Progressiva e pouca no começo, mas chega a ser forte.", "alias": "M" },
+        { "id": 3, "name": "C - Fácil e forte, grande capacidade.", "alias": "S" },
+        { "id": 4, "name": "D - Difícil e pouca.", "alias": "F" }
+      ]
+    },
+    {
+      "id": 33,
+      "question": "33º) Reação",
+      "options": [
+        { "id": 1, "name": "A - Tempo-lento/ intensidade-profunda / duração-longa.", "alias": "M" },
+        { "id": 2, "name": "B - Tempo-rápido / intensidade-profunda / duração-longa", "alias": "C" },
+        { "id": 3, "name": "C - Tempo-lento / intensidade-superficial / duração-longa", "alias": "F" },
+        { "id": 4, "name": "D - Tempo-rápido / intensidade-superficial / duração-breve", "alias": "S" }
+      ]
+    },
+    {
+      "id": 34,
+      "question": "34º) Aparência",
+      "options": [
+        { "id": 1, "name": "A - Ativo, vibrante, com vivacidade.", "alias": "S" },
+        { "id": 2, "name": "B - Calmo, sossegado.", "alias": "F" },
+        { "id": 3, "name": "C - Ativo, interiorizado.", "alias": "M" },
+        { "id": 4, "name": "D - Ativo, objetivo.", "alias": "C" }
+      ]
+    }
+  ],
+  "results": {
+    "C": "Você tem uma personalidade colérica: líder, determinado e enérgico!",
+    "S": "Você tem uma personalidade sanguínea: comunicativo, extrovertido e otimista!",
+    "M": "Você tem uma personalidade melancólica: detalhista, sensível e perfeccionista!",
+    "F": "Você tem uma personalidade fleumática: calmo, equilibrado e pacífico!"
+  }
+}

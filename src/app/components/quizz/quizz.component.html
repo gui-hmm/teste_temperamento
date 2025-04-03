@@ -1,0 +1,69 @@
+<div class="quizz__container">
+  <div class="quizz_logo">
+    <div class="logo_img">
+      <img class="img_jm" src="assets/imgs/jm.png" alt="" srcset="">
+      <img class="img_jmo" src="assets/imgs/jmo.jpg" alt="" srcset="">
+    </div>
+    <div class="quizz_title">
+      <h1>{{title}}</h1>
+      <h3>{{subtitle}}</h3>
+    </div>
+    <div class="alinhamento"></div>
+  </div>
+
+  <div *ngIf="!finished" class="quizz_questions">
+    <h3>{{questionSelected.question}}</h3>
+
+    <div class="navigation-buttons">
+      <button
+        (click)="prevStep()"
+        [disabled]="questionIndex === 0"
+        class="nav-button"
+      >
+        Voltar
+      </button>
+
+      <span>Pergunta {{questionIndex + 1}}/{{questionMaxIndex}}</span>
+
+      <button
+        (click)="nextStep()"
+        [disabled]="!getSelectedOption(questionSelected.id)"
+        class="nav-button"
+      >
+        Avançar
+      </button>
+    </div>
+  </div>
+
+  <div *ngIf="!finished" class="quizz_options">
+    <button
+      *ngFor="let option of questionSelected.options"
+      (click)="playerChoose(option.alias)"
+      [class.selected]="getSelectedOption(questionSelected.id) === option.alias"
+      class="btn-option"
+    >
+      {{option.name}}
+    </button>
+  </div>
+
+  <div *ngIf="finished" class="quizz_results">
+    <h1>O Seu resultado é: {{answerSelected}}</h1>
+    <div class="result-description">
+      <p>{{resultDescription}}</p>
+    </div>
+
+    <div class="score-details">
+      <h3>Pontuação por temperamento:</h3>
+      <ul>
+        <li>Colérico: {{scoreDetails['C']}}</li>
+        <li>Sanguíneo: {{scoreDetails['S']}}</li>
+        <li>Melancólico: {{scoreDetails['M']}}</li>
+        <li>Fleumático: {{scoreDetails['F']}}</li>
+      </ul>
+    </div>
+
+    <button (click)="restartQuiz()" class="restart-button">
+      Refazer teste
+    </button>
+  </div>
+</div>
