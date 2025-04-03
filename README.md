@@ -50,11 +50,11 @@ Siga estas etapas para configurar o projeto em sua máquina:
 
 1. **Clonar o repositório**
    ```sh
-   git clone https://github.com/seu-usuario/teste-de-temperamento.git
+   git clone https://github.com/gui-hmm/teste_temperamento.git
 
 2. **Acessar o diretório**
     ```sh
-    cd teste-de-temperamento
+    cd teste_temperamento
 
 3. **Instalar dependências**
     ```sh
