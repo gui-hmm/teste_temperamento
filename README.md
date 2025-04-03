@@ -41,7 +41,7 @@ O usuário responde a uma série de perguntas cuidadosamente elaboradas e recebe
 
 ## 📸 Preview
 
-![Interface do Teste de Temperamento](https://user-images.githubusercontent.com/your-github-user/image.png)
+![Interface do Teste de Temperamento](https://github.com/gui-hmm/teste_temperamento/blob/main/src/assets/imgs/image.png)
 *Captura de tela mostrando a interface do quiz em ação*
 
 ## 🚀 Como Executar Localmente
