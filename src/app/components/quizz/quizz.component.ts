@@ -100,7 +100,7 @@ export class QuizzComponent implements OnInit {
 
   private determineResult(): string {
     const scores = this.calculateScores();
-    let result: any = 'C';
+    let result: string | number = 'C';
     let maxScore = scores['C'];
 
     (Object.keys(scores) as Array<keyof typeof scores>).forEach(key => {
