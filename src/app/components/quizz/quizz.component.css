@@ -1,5 +1,6 @@
 .quizz__container {
   width: 90%;
+  min-height: 92vh;
   margin: auto;
   margin-top: 20px;
 }
